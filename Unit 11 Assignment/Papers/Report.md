@@ -21,6 +21,7 @@ source("Analysis/hsalesPlot.R", echo=TRUE)
 ```
 
 ![](Papers\Report_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+![Figure2](https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-2-1.png)
 
 - There appears to be a seasonality to the data. The data seem to be oscillating up and down corresponding to the calender year. In addition, a trend in the form of a sinusodal wave appears with a trough.
 
@@ -39,6 +40,7 @@ source("Analysis/hsalesDecomp.R", echo=TRUE)
 ```
 
 ![](Papers\Report_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![Figure3](https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-3-1.png)
 
 - The seasonal indice look to cycle every calendar year and the trend indice is close to a 10 year cycle.
 
@@ -63,6 +65,7 @@ source("Analysis/hsalesSeasonal.R", echo=TRUE)
 ```
 
 ![](Papers\Report_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![Figure4](https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-4-1.png)
 
 ```
 ## 
@@ -95,6 +98,7 @@ source("Analysis/hsalesChangeOne.R", echo=TRUE)
 ```
 
 ![](Papers\Report_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![Figure5](https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-5-1.png)
 
 ```
 ## 
@@ -104,6 +108,7 @@ source("Analysis/hsalesChangeOne.R", echo=TRUE)
 ```
 
 ![](Papers\Report_files/figure-html/unnamed-chunk-5-2.png)<!-- -->
+![Figure52](https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-5-2.png)
 
 ```
 ## 
@@ -112,6 +117,7 @@ source("Analysis/hsalesChangeOne.R", echo=TRUE)
 ```
 
 ![](Papers\Report_files/figure-html/unnamed-chunk-5-3.png)<!-- -->
+![Figure53(https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-5-3.png)
 
 ```
 ## 
@@ -138,6 +144,7 @@ source("Analysis/hsalesOutlierEnd.R", echo=TRUE)
 ```
 
 ![](Papers\Report_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![Figure6](https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-6-1.png)
 
 - The outlier observation near the end of the data increases the magnitude of the the seasonally adjusted data not only at that particular time but also on both sides of that time; This is the same effect of the outlier in the middle except at a different time. Similarly, the trend line also peaks at that year pulling the trend curve up around that time distorting the sinusodial wave pattern.
 
@@ -156,6 +163,7 @@ source("Analysis/hsalesOutlierSTL.R", echo=TRUE)
 ```
 
 ![](Papers\Report_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![Figure7](https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-7-1.png)
 
 ```
 ## 
@@ -163,6 +171,7 @@ source("Analysis/hsalesOutlierSTL.R", echo=TRUE)
 ```
 
 ![](Papers\Report_files/figure-html/unnamed-chunk-7-2.png)<!-- -->
+![Figure72](https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-7-2.png)
 
 ```
 ## 
