@@ -40,7 +40,7 @@ source("Analysis/hsalesDecomp.R", echo=TRUE)
 
 ![Figure3](https://github.com/falcard/DataScience/blob/master/Unit%2011%20Assignment/Papers/Report_files/figure-html/unnamed-chunk-3-1.png)
 
-- The seasonal indice look to cycle every calendar year and the trend indice is close to a 10 year cycle.
+- The seasonal looks to cycle every calandar year and the trend-cycle is close to a 10 year cycle.
 
 #### c) Do the results support the graphical interpretation from part (a)?
 
