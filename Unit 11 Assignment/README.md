@@ -13,6 +13,6 @@
 
 ## R-session info
 
-```{r}
+```{r , echo=TRUE}
 sessionInfo()
 ```
